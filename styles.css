@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.open-sans {
+    font-family: "Open Sans", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.main_box{
+background: url("HOME.jpeg");
+height: 100vh;
+
+background-size: cover;
+}
+.btn_one i{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 16px;
+    line-height:50px;
+    cursor: pointer;
+    transition: all 0.5s linear 0.2s;
+}
+.sidebar_menu{
+    opacity: 0.5;
+    position: fixed;
+    height: 100vh;
+    width: 300px;
+    left: -400px;
+background-color: #050505;
+box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+transition: all 0.5s ease 0.2s;
+
+}
+
+
+.sidebar_menu .logo a{
+    position: absolute;
+    left: 50px;
+    line-height: 45px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.sidebar_menu .btn_two i{
+position:relative;
+color:  grey;
+left: 275px;
+font-size: 25px;
+    line-height: 60px;
+    cursor: pointer;
+    transition: all 0.5s linear 0.2s;
+
+}
+.sidebar_menu.menu{
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+
+    
+}
+.sidebar_menu .menu li{
+    margin-top: 6px;
+    padding: 14px 20px;
+
+}
+.sidebar_menu .menu i,a{
+   text-decoration: none;
+   color: white; 
+   font-size: 20px;
+}
+#check{
+    display:none;
+}
+.sidebar_menu .menu li:hover{
+    font-weight: bold ;
+}
+.btn_one i:hover{
+font-size: 35px;
+}
+.btn_two i:hover{
+    font-size: 30px;
+    }
+.sidebar_menu .social_media {
+margin-left: 80px;
+margin-top: 80px ;
+}
+.sidebar_menu .social_media i{
+    margin-left: 10px;
+    
+}
+.social_media i:hover{
+    color: black;
+    opacity: 1;
+    transform: scale(1.5);
+}
+#check:checked ~ .sidebar_menu{
+    left: 0;
+}
+#check:checked ~ .btn_one{
+    display: none;
+}
+
+.navbar{
+    background-color: rgb(35, 135, 35);
+}
+.navbar-dark {
+    opacity: 0.9;
+}
+.btn{
+    margin-right: 5px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  nav {
+    background-color: #2c6e49;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  .menu {
+    display: flex;
+    gap: 20px;
+  }
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .cta {
+    background-color: #f4a261;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .cta:hover {
+    background-color: #e76f51;
+  }
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+    }
+    .menu {
+        color: black;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .menu li:hover{
+    box-shadow: 0 4px 8px whitesmoke;
+  }
+  .container{
+    background-color: #f4a261;
+  }
+  .sidebar {
+    height: 100vh;
+    width: 250px;
+    background-color: rgba(255, 255, 255); /* Adjust transparency */
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.8);
+  }
+  .sidebar h2 {
+    font-weight: bold;
+    color: white;
+  }
+  .sidebar ul {
+    padding-left: 0;
+    list-style-type: none;
+  }
+  .sidebar ul li {
+    padding: 10px 0;
+    color: white;
+  }
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  .sidebar ul li a:hover {
+    color: #ffc107;
+  }
+
+.blockquote-custom {
+  position: relative;
+  font-size: 1.1rem;
+}
+
+.blockquote-custom-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -40px;
+  left: 19px;
+}
+
+.card.panels-card .hour {
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
+}
+
+.main_box h1{
+    color: rgb(33, 19, 19);
+    display: inline-block;
+    margin-left: 35rem;
+    margin-top: 150px;
+}
+
